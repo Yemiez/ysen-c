@@ -1,0 +1,17 @@
+
+
+/*
+* Returns a + b.
+* @param a int
+* @param b int
+* @return int (a + b)
+*/
+fun my_function(a: int, b: int) : int {
+	return a + b;
+}
+
+// Call the function
+var a: int = 25;
+var b: int = 50;
+
+printf("%d\n", my_function(a, b));
